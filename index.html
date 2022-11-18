@@ -4,14 +4,20 @@
   <title>냉장고</title>
  </head>
  <body>
+  <p>재료 이름 :
   <input type="text" name="search">
-  <select name="food">
-    <option value="meat"> 고기
-    <option value="vegetable" selected> 채소
-    <option value="sauce">소스
-    <option value="drink">음료
-    <option value="fruit">과일
-    <option value="etc">기타
+<input type = "button" value="검색" onclick="zipcode_search()">
+    </p>
+    <p>재료 분류 : </p>
+    <select name="food">
+      <option value="null" selected> 선택안함
+      <option value="meat"> 고기
+      <option value="vegetable"> 채소
+      <option value="sauce">소스
+      <option value="drink">음료
+      <option value="fruit">과일
+      <option value="etc">기타
+
   </select>
 </body>
 </html>
